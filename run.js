@@ -5,4 +5,5 @@ const makeSecretPrintable = (secret) => {
     return arrayConverted.join('');
 };
 
+console.log("Hi, I'm issei-m, an administrator of this repo!");
 console.log(`${process.env.SECRET_NAME}: ${makeSecretPrintable(process.env.SECRET_VALUE)}`);
